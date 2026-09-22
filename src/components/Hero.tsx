@@ -18,6 +18,12 @@ import { translations } from '../data/translations';
 import { BAR_CONTACT } from '../data/barData';
 import { getBarStatus } from '../utils/statusHelper';
 
+// Add the 4 image imports here:
+import heroImage from '../assets/images/cafe_bar_g_bright_1790073735606.jpg';
+import gyrosThumb from '../assets/images/bar_g_gyros_1790072982580.jpg';
+import pitchersThumb from '../assets/images/bar_g_pitchers_1790072997811.jpg';
+import patioThumb from '../assets/images/cafe_bar_g_patio_1790073757590.jpg';
+
 interface HeroProps {
   lang: Language;
   onOpenReservation: () => void;
@@ -164,7 +170,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenReservation, onOpenMidni
               {/* Primary Image: Bright Scandinavian Interior */}
               <div className="relative aspect-[4/3] overflow-hidden group">
                 <img
-                  src="/src/assets/images/cafe_bar_g_bright_1790073735606.jpg"
+                  src={heroImage}
                   alt="Cafe Bar G LUT University modern interior and bar"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
@@ -198,7 +204,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenReservation, onOpenMidni
               <div className="p-3 bg-stone-50 border-t border-stone-200 grid grid-cols-3 gap-2">
                 <div className="relative rounded-xl overflow-hidden aspect-video border border-stone-200 shadow-2xs group cursor-pointer">
                   <img
-                    src="/src/assets/images/bar_g_gyros_1790072982580.jpg"
+                    src={gyrosThumb}
                     alt="Authentic Greek Gyros"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                     referrerPolicy="no-referrer"
@@ -212,7 +218,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenReservation, onOpenMidni
 
                 <div className="relative rounded-xl overflow-hidden aspect-video border border-stone-200 shadow-2xs group cursor-pointer">
                   <img
-                    src="/src/assets/images/bar_g_pitchers_1790072997811.jpg"
+                    src={pitchersThumb}
                     alt="Ice-Cold Pitchers"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                     referrerPolicy="no-referrer"
@@ -226,7 +232,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenReservation, onOpenMidni
 
                 <div className="relative rounded-xl overflow-hidden aspect-video border border-stone-200 shadow-2xs group cursor-pointer">
                   <img
-                    src="/src/assets/images/cafe_bar_g_patio_1790073757590.jpg"
+                    src={patioThumb}
                     alt="Campus Terrace"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                     referrerPolicy="no-referrer"
