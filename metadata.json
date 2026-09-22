@@ -1,0 +1,6 @@
+{
+  "name": "Cafe Bar G",
+  "description": "Official website for Cafe Bar G, the legendary student bar and cafe at LUT University in Lappeenranta, Finland. Featuring authentic Greek food, burgers, pitchers, opening hours, reviews, and reservations in Finnish and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
