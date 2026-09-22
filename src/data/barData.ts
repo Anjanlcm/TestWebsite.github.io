@@ -1,5 +1,13 @@
 import { MenuItem, ReviewItem, GalleryPhoto } from '../types';
 
+import photoBrightInterior from '../assets/images/cafe_bar_g_bright_1790073735606.jpg';
+import photoPatioExterior from '../assets/images/cafe_bar_g_patio_1790073757590.jpg';
+import photoGyros from '../assets/images/bar_g_gyros_1790072982580.jpg';
+import photoPitchers from '../assets/images/bar_g_pitchers_1790072997811.jpg';
+import photoFries from '../assets/images/bar_g_fries_1790073012051.jpg';
+import photoBurger from '../assets/images/bar_g_burger_1790073027095.jpg';
+import photoHero from '../assets/images/bar_g_hero_1790072962320.jpg';
+
 export const BAR_CONTACT = {
   name: 'Cafe Bar G',
   address: 'Laserkatu 8, 53850 Lappeenranta, Finland',
@@ -456,99 +464,57 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'photo-bright-interior',
     category: 'vibe',
-    title: {
-      fi: 'Cafe Bar G Sisätilat & Tiskiemme Loisto',
-      en: 'Cafe Bar G Modern Nordic Interior',
-    },
-    caption: {
-      fi: 'Valoisat skandinaaviset tilat, tammihuonekalut ja lämmin opiskelijatunnelma',
-      en: 'Bright Scandinavian interior, natural oak tables and warm student ambiance',
-    },
-    imageUrl: '/src/assets/images/cafe_bar_g_bright_1790073735606.jpg',
+    title: { fi: 'Cafe Bar G Sisätilat & Tiskiemme Loisto', en: 'Cafe Bar G Modern Nordic Interior' },
+    caption: { fi: 'Valoisat skandinaaviset tilat, tammihuonekalut ja lämmin opiskelijatunnelma', en: 'Bright Scandinavian interior, natural oak tables and warm student ambiance' },
+    imageUrl: photoBrightInterior, // Updated
     tagText: 'Modern Vibe',
   },
   {
     id: 'photo-patio-exterior',
     category: 'campus',
-    title: {
-      fi: 'Laserkatu 8 Terassi & LUT Kampus',
-      en: 'Laserkatu 8 Summer Terrace & LUT Campus',
-    },
-    caption: {
-      fi: 'Aurinkoinen kesäterassi ja sisäänkäynti Ylioppilastalon takana',
-      en: 'Sunny summer terrace patio and entrance behind Student Union House',
-    },
-    imageUrl: '/src/assets/images/cafe_bar_g_patio_1790073757590.jpg',
+    title: { fi: 'Laserkatu 8 Terassi & LUT Kampus', en: 'Laserkatu 8 Summer Terrace & LUT Campus' },
+    caption: { fi: 'Aurinkoinen kesäterassi ja sisäänkäynti Ylioppilastalon takana', en: 'Sunny summer terrace patio and entrance behind Student Union House' },
+    imageUrl: photoPatioExterior, // Updated
     tagText: 'Terrace & Campus',
   },
   {
     id: 'photo-gyros',
     category: 'food_drink',
-    title: {
-      fi: 'Aito Kreikkalainen Gyros Lautanen',
-      en: 'Authentic Greek Gyros Platter',
-    },
-    caption: {
-      fi: 'Mehevää gyros-lihaa, lämmintä pitaa, rapeita ranskalaisia ja talon tzatzikia',
-      en: 'Tender gyros meat, warm pita bread, seasoned fries and tzatziki',
-    },
-    imageUrl: '/src/assets/images/bar_g_gyros_1790072982580.jpg',
+    title: { fi: 'Aito Kreikkalainen Gyros Lautanen', en: 'Authentic Greek Gyros Platter' },
+    caption: { fi: 'Mehevää gyros-lihaa, lämmintä pitaa, rapeita ranskalaisia ja talon tzatzikia', en: 'Tender gyros meat, warm pita bread, seasoned fries and tzatziki' },
+    imageUrl: photoGyros, // Updated
     tagText: 'Greek Food',
   },
   {
     id: 'photo-pitchers',
     category: 'pitchers',
-    title: {
-      fi: 'Legendaariset Huurteiset Olutkannut (1.5L)',
-      en: 'Legendary Ice-Cold Draught Pitchers (1.5L)',
-    },
-    caption: {
-      fi: '1,5 litran jaettavat kannut tuoretta hanaolutta ja lonkeroa',
-      en: '1.5-liter sharing draught beer pitchers with thick head foam',
-    },
-    imageUrl: '/src/assets/images/bar_g_pitchers_1790072997811.jpg',
+    title: { fi: 'Legendaariset Huurteiset Olutkannut (1.5L)', en: 'Legendary Ice-Cold Draught Pitchers (1.5L)' },
+    caption: { fi: '1,5 litran jaettavat kannut tuoretta hanaolutta ja lonkeroa', en: '1.5-liter sharing draught beer pitchers with thick head foam' },
+    imageUrl: photoPitchers, // Updated
     tagText: 'Pitchers',
   },
   {
     id: 'photo-fries',
     category: 'french_fries',
-    title: {
-      fi: 'Rapeat Maustetut Ranskalaiset',
-      en: 'Crispy Seasoned French Fries',
-    },
-    caption: {
-      fi: 'Kultaista herkkua ja valkosipulidippiä pubin pöydässä',
-      en: 'Golden crispy fries with garlic dipping sauce',
-    },
-    imageUrl: '/src/assets/images/bar_g_fries_1790073012051.jpg',
+    title: { fi: 'Rapeat Maustetut Ranskalaiset', en: 'Crispy Seasoned French Fries' },
+    caption: { fi: 'Kultaista herkkua ja valkosipulidippiä pubin pöydässä', en: 'Golden crispy fries with garlic dipping sauce' },
+    imageUrl: photoFries, // Updated
     tagText: 'French Fries',
   },
   {
     id: 'photo-burger',
     category: 'food_drink',
-    title: {
-      fi: 'Gourmet Bar G Burger & Ranskalaiset',
-      en: 'Gourmet Bar G Burger & Fries',
-    },
-    caption: {
-      fi: 'Tuhti briossiburger sulatetulla cheddarilla ja rapealla pekonilla',
-      en: 'Hearty brioche burger with melted cheddar and crispy bacon',
-    },
-    imageUrl: '/src/assets/images/bar_g_burger_1790073027095.jpg',
+    title: { fi: 'Gourmet Bar G Burger & Ranskalaiset', en: 'Gourmet Bar G Burger & Fries' },
+    caption: { fi: 'Tuhti briossiburger sulatetulla cheddarilla ja rapealla pekonilla', en: 'Hearty brioche burger with melted cheddar and crispy bacon' },
+    imageUrl: photoBurger, // Updated
     tagText: 'Burgers',
   },
   {
     id: 'photo-hero',
     category: 'vibe',
-    title: {
-      fi: 'Iltatunnelma & Opiskelijaelämää',
-      en: 'Evening Vibe & Student Gatherings',
-    },
-    caption: {
-      fi: 'Lämmin ja vilkas opiskelijabaarin ilmapiiri iltavalaistuksessa',
-      en: 'Warm and lively student bar interior under ambient evening lights',
-    },
-    imageUrl: '/src/assets/images/bar_g_hero_1790072962320.jpg',
+    title: { fi: 'Iltatunnelma & Opiskelijaelämää', en: 'Evening Vibe & Student Gatherings' },
+    caption: { fi: 'Lämmin ja vilkas opiskelijabaarin ilmapiiri iltavalaistuksessa', en: 'Warm and lively student bar interior under ambient evening lights' },
+    imageUrl: photoHero, // Updated
     tagText: 'Night Vibe',
   },
 ];
